@@ -55,9 +55,13 @@ fps.detect.auto = function()
     fps.mode = "default"
 end
 
+fps.tostring = function()
+    return i18n.t("fps") .. ": " .. fps.value .. " (" .. fps.mode .. ")"
+end
+
 function activate()
     fps.detect.auto()
-    vlc.msg.info("fps: " .. fps.value .. " (" .. fps.mode .. ")")
+    vlc.msg.info(fps.tostring())
 end
 
 function deactivate() end
