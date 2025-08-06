@@ -3,7 +3,7 @@
 function descriptor()
     return {
         title = "framex",
-        version = "0.1.0",
+        version = "1.0",
         author = "bjmng",
         url = "https://github.com/bjmng/framex",
         shortdesc = "Frame eXtension",
