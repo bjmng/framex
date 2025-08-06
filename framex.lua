@@ -56,7 +56,7 @@ fps.detect.auto = function()
 end
 
 fps.tostring = function()
-    return i18n.t("fps") .. ": " .. fps.value .. " (" .. fps.mode .. ")"
+    return i18n.t("fps") .. ": " .. tostring(fps.value) .. " (" .. fps.mode .. ")"
 end
 
 function activate()
