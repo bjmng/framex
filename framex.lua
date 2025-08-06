@@ -11,3 +11,9 @@ function descriptor()
         capabilities = { "close" }
     }
 end
+
+function activate() end
+
+function deactivate() end
+
+function close() deactivate() end
