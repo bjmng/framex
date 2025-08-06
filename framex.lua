@@ -18,7 +18,7 @@ i18n.dictionary = {
     ["en"] = { ["fps"] = "Frame rate" }
 }
 
-i18n.t = function(key) return i18n.dictionary[key] or key end
+i18n.t = function(key) return i18n.dictionary[i18n.language][key] or key end
 
 local fps = { value = nil, default = 25, mode = "undefined" }
 
