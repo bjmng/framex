@@ -1,4 +1,4 @@
---[[ framex - VLC Frame eXtension ]]
+--[[ framex ]]
 
 function descriptor()
     return {
