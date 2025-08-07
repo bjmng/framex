@@ -24,5 +24,9 @@ Copy the file `framex.lua` into following directory:
 | Linux   |           |
 | OSX     |           |
 
+If the directory does not exist, create it first. To take effect,
+restart VLC.
+
 > [!TIP]
 > You could symlink the file into the directory.
+
